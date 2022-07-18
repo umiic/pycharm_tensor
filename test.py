@@ -45,9 +45,9 @@ for x in range(len(predictions)):
         predictions[x] = 0
     print(np.round(predictions[x]), x_test[x], y_test[x])
 
-p = "absences"
+p = "G2"
 style.use("ggplot")
-plt.scatter(data[p], data["G2"])
+plt.scatter(data[p], data["G3"])
 plt.xlabel(p)
 plt.ylabel("Final Grade")
 plt.show()
